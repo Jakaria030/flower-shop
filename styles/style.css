@@ -245,3 +245,51 @@ body{
     width: 100%;
 }
 /* main > insta gallery  section styles end */
+
+/* latest deal container styles start */
+.latest-deal-container{
+    width: 1440px;
+    height: 449px;
+    margin: 0 auto 128px;
+    border-radius: 8px;
+    background: url("../images/rectangle-1.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-form-content{
+    width: 866px;
+    height: 206px;
+    text-align: center;
+}
+.input-form-content h1{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.input-form-content h6{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+}
+.input-group{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-group input[type="email"]{
+    width: 680px;
+    height: 64px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+.input-group .primary-btn{
+    padding: 18px 20px;
+}
+/* latest deal container styles end */
