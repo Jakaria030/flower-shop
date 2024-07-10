@@ -73,7 +73,6 @@ body{
     height: 963px;
     margin: 0 auto;
     padding-top: 130px;
-    margin-bottom: 100px; /* for understand */
 }
 .featured-title{
     width: 594px;
@@ -122,6 +121,7 @@ body{
     background-color: rgba(71, 125, 17, 0.15);
 }
 .featured-flower-caption{
+    height: 67px;
     display: flex;
     justify-content: space-around;
     padding-top: 32px;
@@ -133,3 +133,29 @@ body{
     text-decoration-color: rgba(71, 125, 17, 0.15);
 }
 /* main > our featured flower styles end */
+
+/* main > service section styles start */
+.service-container{
+    width: 75%;
+    height: 320px;
+    margin: 128px auto;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-col{
+    width: 372px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-col h6{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+/* main > service section styles end */
